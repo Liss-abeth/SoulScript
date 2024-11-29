@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(./img/abstract-space-scene-with-fictional-planets.jpg) no-repeat center center/cover;
+ 
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+}
+
+textarea {
+    width: 95%;
+    height: 150px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 9px;
+    resize: none;
+    background: rgb(0, 0, 0,0.3);
+     color:white;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 5px;
+    border: 2px solid white;
+    border-radius: 20px ;
+    cursor: pointer;
+    background-color: #00000000;
+    color: white;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #0b023500;
+}
+
+.login-container, .thought-container, .dreams-container {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.0);
+    padding: 20px;
+    border-radius: 10px;
+    width: 50%;
+}
+
+#dreams-list {
+    margin-top: 20px;
+    background: rgb(0, 0, 0,0.3);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 5px;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+
